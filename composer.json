@@ -1,0 +1,23 @@
+{
+    "name": "lightweight/magento2.module.cms-setup",
+    "description": "CMS setup module for Lightweight",
+    "type": "magento2-module",
+    "require": {
+        "magento/module-cms": ">=100.0.0"
+    },
+    "authors": [
+        {
+            "name": "Axel Bildat",
+            "email": "axel.bildat@7thsense.de",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lightweight\\CmsSetup\\": ""
+        }
+    }
+}
